@@ -1,0 +1,16 @@
+
+
+import random
+i = 0
+
+lsa = random.randint(0,1)
+lsa1 = random.randint(0,1)
+lsa2 = random.randint(0,1)  # cai nay la randon so 
+
+toi = ['I','i']
+you = ['You', 'YoU', 'YOU','yOu','yoU','you']
+love = ['LoVe', 'LoVE', 'LOVE','LOVe','lovE','LOVe','love']
+
+while i <= 100:
+    i += 1
+    print(random.choice(toi),random.choice(love),random.choice(you),i)
